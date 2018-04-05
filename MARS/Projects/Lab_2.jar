@@ -104,7 +104,7 @@ FP_MULT:
 	blt 		$t5, 0x00008000, noModify	#check for overflow, check if the aanswer requires a point carry, jump to noModify if it doesn't
 	
 
-	addi $t4, $t4, 1			#answer requires a point carry, modify the exponant	
+	addi 		$t4, $t4, 1		#answer requires a point carry, modify the exponant	
 	sll		$t5,$t5,15		#shift the high value over to the right
 	mflo		$t9			#get the low value
 	srl		$t9,$t9,16		#shift the low values all the way to the left	
