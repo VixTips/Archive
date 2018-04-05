@@ -1,0 +1,10 @@
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\bin\Debug\Serial_Graphing.exe.config
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\bin\Debug\Serial_Graphing.exe
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\bin\Debug\Serial_Graphing.pdb
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\obj\Debug\Serial_Graphing.csprojResolveAssemblyReference.cache
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\obj\Debug\Serial_Graphing.Form1.resources
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\obj\Debug\Serial_Graphing.Properties.Resources.resources
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\obj\Debug\Serial_Graphing.csproj.GenerateResource.cache
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\obj\Debug\Serial_Graphing.csproj.CoreCompileInputs.cache
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\obj\Debug\Serial_Graphing.exe
+C:\Users\vicsk\source\repos\Serial_Graphing\Serial_Graphing\obj\Debug\Serial_Graphing.pdb
