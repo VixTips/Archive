@@ -83,7 +83,7 @@ public class MaxHeap {
 
         //must be static???, specifically asked to use the delete method. n time to loop through array
         // nlogn time to perform the building of of each of the new heap.
-        //O(nlogn)
+        //O(nlogn) ( n times to call delete (0(logn)) -> O(nlogn)
         public void heapSort(int []input)
         {
             // "call" the constructor...
@@ -97,7 +97,7 @@ public class MaxHeap {
                  
             makeMaxHeap();
             //remove each root, call the makeMaxheap function to sor the rest of the array     
-            for(int i = 0;i<temp;i++){tempArray[i] = this.deleteMax();makeMaxHeap();}
+            for(int i = 0;i<temp;i++){tempArray[i] = this.deleteMax();}
             sizeHeap = temp;
             myHeap = tempArray;
         }
