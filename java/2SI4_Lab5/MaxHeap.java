@@ -1,4 +1,4 @@
-//author vic
+2//author vic
 
 public class MaxHeap {
         
@@ -10,6 +10,12 @@ public class MaxHeap {
         int arraySize;
         
         //constructor
+        public MaxHeap(int input)
+        {
+            myHeap = new int[input];
+            sizeHeap = 0;
+            arraySize = input;
+        }
         public  MaxHeap(int[] input)
         {
             //get the array and heap size

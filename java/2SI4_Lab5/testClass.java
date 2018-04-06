@@ -14,7 +14,7 @@ public class testClass
       	myHeap.getHeapSize();
 
 
-        System.out.println("\nBuild th emax heap");  
+        System.out.println("\nBuild the max heap");  
       	myHeap.makeMaxHeap();
       	myHeap.heapToString();
 
