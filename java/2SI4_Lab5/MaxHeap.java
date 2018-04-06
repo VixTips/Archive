@@ -1,4 +1,4 @@
-2//author vic
+//author vic
 
 public class MaxHeap {
         
