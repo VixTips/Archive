@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{0f2408c0-0bbf-4eac-8169-f160e3f292a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{df3e5f09-6d29-4401-bd33-9cba976d7ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders\ShaderSrc">
+      <UniqueIdentifier>{62555dcd-83bf-47ba-b7dd-bc817d065a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vectors">
+      <UniqueIdentifier>{9004fdee-c0c5-48e1-be0e-9b95eb82fd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{5d73e68d-b24c-4d22-b8b0-a528ddc81390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vertices">
+      <UniqueIdentifier>{7d4e0c08-0fec-4fd6-a860-ac38dfc82e4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Source Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Source Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec4.h">
+      <Filter>Source Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat4.h">
+      <Filter>Source Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertices.h">
+      <Filter>Source Files\Vertices</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGraphicsLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Source Files\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3.cpp">
+      <Filter>Source Files\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec4.cpp">
+      <Filter>Source Files\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Mat4.cpp">
+      <Filter>Source Files\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertices.cpp">
+      <Filter>Source Files\Vertices</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic_shader.fs">
+      <Filter>Source Files\Shaders\ShaderSrc</Filter>
+    </None>
+    <None Include="basic_shader.vs">
+      <Filter>Source Files\Shaders\ShaderSrc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
