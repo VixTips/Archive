@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  Bitmap.cpp
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(151): warning C4018: '<': signed/unsigned mismatch
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(151): warning C4018: '>': signed/unsigned mismatch
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(155): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(156): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(157): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(158): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(177): warning C4018: '>=': signed/unsigned mismatch
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(62): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'

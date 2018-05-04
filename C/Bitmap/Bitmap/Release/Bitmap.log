@@ -1,0 +1,11 @@
+﻿  Bitmap.cpp
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(151): warning C4018: '<': signed/unsigned mismatch
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(151): warning C4018: '>': signed/unsigned mismatch
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(155): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(156): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(157): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(158): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\vicsk\source\repos\bitmap\bitmap\bitmap.cpp(176): warning C4018: '>=': signed/unsigned mismatch
+LINK : fatal error LNK1104: cannot open file 'C:\Users\vicsk\source\repos\Bitmap\Release\Bitmap.exe'
